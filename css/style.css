@@ -36,3 +36,34 @@ a {
     font-size: 16px;
     font-weight: 400;
 }
+
+.homepage-main {
+    background-color: #9747FF;
+    height: 586px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    gap: 60px;
+}
+.main-content-left h1{
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.main-content-left p {
+    margin-bottom: 90px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #FFFB47;
+    border-radius: 30px;
+    padding: 8px 38px;
+    font-weight: 500;
+}
