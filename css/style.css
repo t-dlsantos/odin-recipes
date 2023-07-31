@@ -37,9 +37,9 @@ a {
     font-weight: 400;
 }
 
-.homepage-main {
+main {
     background-color: #9747FF;
-    height: 586px;
+    padding: 129px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -50,8 +50,12 @@ a {
     display: flex;
     gap: 60px;
 }
-.main-content-left h1{
+
+.bold-text {
     font-weight: 900;
+}
+
+.main-content-left h1{
     margin-bottom: 30px;
     font-size: 40px;
 }
@@ -69,4 +73,30 @@ a {
     font-weight: 500;
     border: none;
     box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.recipe-content {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.recipe-content h1 {
+    font-size: 40px;
+}
+
+.recipe-content h3 {
+    font-size: 24px;
+}
+
+.description-ingredients {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.steps {
+    width: 330px;
 }
